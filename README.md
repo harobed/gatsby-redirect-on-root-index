@@ -5,9 +5,10 @@ $ npm run develop
 
 A redirection is configured: `/` -> `/page-2/`
 
+Go to http://localhost:8000
 
-See this error in Browser console:
+See this error:
 
 ```
-The route "/" matches both a page and a redirect; this is probably not intentional.
+TypeError: locationAndPageResources.pageResources is undefined
 ```
